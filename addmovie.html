@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<title>Add movie</title>
+<meta name="description" content="My Add movie">
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<img src=".\images\projector-logo.png">
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Add movie</a></li>
+  </ul>
+</nav>
+</header>
+<h2>Add a movie</h2>
+
+<form action="/sample-action">
+  <ul>
+    <li>
+      <label="movie-name">Movie name</label>
+      <input id="movie-name"  type="text" name="movie-name"/>
+    </li>
+    <li>
+      <label for="release-yr">Release year</label>
+      <input id="release-yr" type="number" name="release-yr"/>
+    </li>
+    <li>
+      <label for="lang">Language</label>
+      <select name="lang">
+        <option value="tamil">Tamil</option>
+        <option value="hindi">Hindi</option>
+        <option value="enlish">English</option>
+      </select>
+
+        <label for="rating">Rating</label>
+        <select name="rating">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </li>
+      <li>
+        <label for="thumbnail">Thumbnail url</label>
+        <input id="thumbnail" type="url" name="thumbnail"/>
+      </li>
+      <li>
+        <label for="plot">Plot</label>
+        <textarea id="plot"name="plot" rows="8">
+        </textarea>
+        <li>
+          <label for="poster-url" >Poster URL</label>
+          <input id="poster-url" type="url" name="poster-url"/>
+        </li>
+        <li>
+          <label for="cast">Cast</label>
+          <textarea id="cast" name="cast" rows="6">
+          </textarea>
+        </li>
+  </ul>
+
+</body>
+</html>
