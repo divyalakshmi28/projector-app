@@ -3,19 +3,23 @@
 <title>Add movie</title>
 <meta name="description" content="My Add movie">
 <meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/movie.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
 </head>
 <body>
 <header>
-<img src=".\images\projector-logo.png">
+<img class="logo fleft" src=".\images\projector-logo.png" alt="logo" >
 
 <nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Add movie</a></li>
+  <ul class="fright">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ADD MOVIE</a></li>
   </ul>
 </nav>
 </header>
-<h2>Add a movie</h2>
+<div class="clearfix"></div>
+<h2>ADD A MOVIE</h2>
 
 <form action="/sample-action">
   <ul>
@@ -61,7 +65,17 @@
           <textarea id="cast" name="cast" rows="6">
           </textarea>
         </li>
+        <li>
+          <button type="submit">Save</button>
+        </li>
+        <footer>
+          <img class="logo fleft" src="images\facebook.png">
+          <img class="logo"src="images\instagram.png">
+          <img class="logo" src="images\twitter.png">
+          <img class="logo fright"src="images\projector-logo.png">
+        </footer>
   </ul>
+
 
 </body>
 </html>
